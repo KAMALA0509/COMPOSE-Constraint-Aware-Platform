@@ -1,0 +1,15 @@
+# Evaluation and search concepts
+
+COMPOSE evaluates stored JSON semantics rather than primitive-specific branches. Primitive keys, category and exact-match properties feed the same five rule families used by Rule Studio. Emergent rules support an optional outcome: capability (legacy default) or conflict. The new three-way routing rule only triggers when gateway, load balancer and service mesh are simultaneously present; every two-member subset avoids that emergent conflict.
+
+A graph evaluation validates stable node IDs, referenced primitive schemas, directed output-to-input edges, exact protocol matches, endpoint/port existence and multiplicity (one by default unless multiple=true). Required ports and missing dependencies produce partial status. Error-level exclusion, quantitative upper-bound, schema, edge or emergent conflict findings produce invalid status. Error-level lower bounds represent incomplete composition requirements. With no error findings the graph is valid; warnings do not invalidate it.
+
+Findings carry rule identity, affected node/edge IDs, root cause, reason and repair guidance. Conflict DNA groups these findings by root cause, aggregating rule and node identities. It is a diagnostic grouping, not a minimal unsatisfiable core proof.
+
+Repair candidates add/remove one node or add/remove one edge. Each is applied to a copy and fully re-evaluated. Only candidates whose error signature is a strict subset of the original are offered. No new error is allowed. Repairs are ordered by edit count then remaining errors; they may leave an architecture partial. This is a practical single-edit neighborhood, not a claim of globally minimum multi-edit repair.
+
+Goal search propagates singleton dependency selectors to a fixed point, rejects empty selector domains, and backtracks through finite include/exclude decisions. It prunes block/cost overflow and monotone error conflicts. Required-port wiring backtracks over compatible directed peers. Every returned solution is fully evaluated. The domain has at most one occurrence of each primitive; optional edges are omitted. General composer designs can contain repeated occurrences, but a search impossibility proof applies only to the stated finite search domain.
+
+Ranking prefers more satisfied preferences, fewer warnings, lower cost and fewer blocks. An exhaustive successful search reports solved; exhaustive failure reports proven-impossible. Reaching either wall-clock or search-node budget reports budget-exhausted, including when verified provisional candidates exist. A budget timeout never proves impossibility.
+
+Demo initialization acquires a transaction-scoped PostgreSQL advisory lock before reading existing keys and adding missing demo records. The lock remains held through caller commit. Existing user-edited records are not overwritten during initialization; Reset explicitly replaces reserved demo records. Failed transactions leave the session context and are rolled back instead of reusing an aborted session. Reloads query persisted data; validation snapshots never replace live evaluation.

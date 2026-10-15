@@ -1,0 +1,455 @@
+{
+  "version": 4,
+  "app_title": "COMPOSE Assembly Platform Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-ded9ff69",
+      "name": "Dashboard",
+      "route": "/",
+      "item_ref": {
+        "index": 1,
+        "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+      },
+      "blocks": [
+        {
+          "id": "dash-nav",
+          "type": "nav",
+          "label": "Workspace navigation",
+          "hint": "Dashboard, Primitives, Rules, Composer, Conflicts, Goals, Saved",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "dash-heading",
+          "type": "text",
+          "label": "Dashboard heading and demo reset",
+          "hint": "Workspace overview and reset control",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "dash-stats",
+          "type": "kpi",
+          "label": "Real workspace totals",
+          "hint": "Counts of primitives, rules, and saved compositions",
+          "x": 0,
+          "y": 2,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "dash-activity",
+          "type": "list",
+          "label": "Recent activity",
+          "hint": "Persisted edits, validation, and saves",
+          "x": 0,
+          "y": 4,
+          "w": 7,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "dash-examples",
+          "type": "list",
+          "label": "Demo scenarios",
+          "hint": "Open valid, invalid, partial, and emergent examples",
+          "x": 7,
+          "y": 4,
+          "w": 5,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-788b67ab",
+      "name": "Primitive Library",
+      "route": "/primitives",
+      "item_ref": {
+        "index": 1,
+        "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+      },
+      "blocks": [
+        {
+          "id": "primitives-nav",
+          "type": "nav",
+          "label": "Workspace navigation",
+          "hint": "All seven main destinations",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "primitives-form",
+          "type": "form",
+          "label": "Primitive editor",
+          "hint": "Create and edit categorized blocks, properties, ports, and metadata",
+          "x": 0,
+          "y": 1,
+          "w": 5,
+          "h": 6,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "primitives-list",
+          "type": "list",
+          "label": "Searchable primitive catalog",
+          "hint": "Category filters and edit/delete controls",
+          "x": 5,
+          "y": 1,
+          "w": 7,
+          "h": 6,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-ab7be922",
+      "name": "Rule Studio",
+      "route": "/rules",
+      "item_ref": {
+        "index": 1,
+        "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+      },
+      "blocks": [
+        {
+          "id": "rules-nav",
+          "type": "nav",
+          "label": "Workspace navigation",
+          "hint": "All seven main destinations",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "rules-form",
+          "type": "form",
+          "label": "Rule editor",
+          "hint": "Data-driven condition fields, severity, explanation, and suggestions",
+          "x": 0,
+          "y": 1,
+          "w": 5,
+          "h": 7,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "rules-list",
+          "type": "list",
+          "label": "Rules and Rule Doctor",
+          "hint": "Editable rule cards and contradiction findings",
+          "x": 5,
+          "y": 1,
+          "w": 7,
+          "h": 7,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the dashboard, primitive library, and rule studio with editable records, real metrics, validation, and a restrained enterprise design using deep navy, teal accents, Inter typography, and spacious light surfaces."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-d972ce9e",
+      "name": "Visual Composer",
+      "route": "/composer",
+      "item_ref": {
+        "index": 2,
+        "text": "Build the visual composer and conflict explorer with typed connections, shared rule evaluation, three-way conflicts, Conflict DNA, verified repair suggestions, and undo/redo."
+      },
+      "blocks": [
+        {
+          "id": "composer-nav",
+          "type": "nav",
+          "label": "Workspace navigation",
+          "hint": "All seven main destinations",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the visual composer and conflict explorer with typed connections, shared rule evaluation, three-way conflicts, Conflict DNA, verified repair suggestions, and undo/redo."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "composer-palette",
+          "type": "list",
+          "label": "Block palette",
+          "hint": "Search and add primitives to the canvas",
+          "x": 0,
+          "y": 1,
+          "w": 2,
+          "h": 7,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the visual composer and conflict explorer with typed connections, shared rule evaluation, three-way conflicts, Conflict DNA, verified repair suggestions, and undo/redo."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "composer-canvas",
+          "type": "editor",
+          "label": "Composition canvas",
+          "hint": "Position blocks and connect typed ports",
+          "x": 2,
+          "y": 1,
+          "w": 7,
+          "h": 7,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the visual composer and conflict explorer with typed connections, shared rule evaluation, three-way conflicts, Conflict DNA, verified repair suggestions, and undo/redo."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "composer-inspector",
+          "type": "inspector",
+          "label": "Validation inspector",
+          "hint": "Status, violations, verified repair actions, undo/redo",
+          "x": 9,
+          "y": 1,
+          "w": 3,
+          "h": 7,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the visual composer and conflict explorer with typed connections, shared rule evaluation, three-way conflicts, Conflict DNA, verified repair suggestions, and undo/redo."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-bb08b5d5",
+      "name": "Conflict Explorer",
+      "route": "/conflicts",
+      "item_ref": {
+        "index": 2,
+        "text": "Build the visual composer and conflict explorer with typed connections, shared rule evaluation, three-way conflicts, Conflict DNA, verified repair suggestions, and undo/redo."
+      },
+      "blocks": [
+        {
+          "id": "conflicts-nav",
+          "type": "nav",
+          "label": "Workspace navigation",
+          "hint": "All seven main destinations",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the visual composer and conflict explorer with typed connections, shared rule evaluation, three-way conflicts, Conflict DNA, verified repair suggestions, and undo/redo."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "conflicts-list",
+          "type": "list",
+          "label": "Violation list",
+          "hint": "Rule IDs, impacted blocks, and statuses",
+          "x": 0,
+          "y": 1,
+          "w": 5,
+          "h": 7,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the visual composer and conflict explorer with typed connections, shared rule evaluation, three-way conflicts, Conflict DNA, verified repair suggestions, and undo/redo."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "conflicts-dna",
+          "type": "text",
+          "label": "Conflict DNA detail",
+          "hint": "Root causes, downstream effects, and smallest verified repair",
+          "x": 5,
+          "y": 1,
+          "w": 7,
+          "h": 7,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the visual composer and conflict explorer with typed connections, shared rule evaluation, three-way conflicts, Conflict DNA, verified repair suggestions, and undo/redo."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-aa21c171",
+      "name": "Goal-Seeking Lab",
+      "route": "/goals",
+      "item_ref": {
+        "index": 3,
+        "text": "Build the goal-seeking lab and saved compositions with ranked search, impossible-versus-timeout outcomes, save/load/export, automated tests, documented API, and local/deployment guidance."
+      },
+      "blocks": [
+        {
+          "id": "goals-nav",
+          "type": "nav",
+          "label": "Workspace navigation",
+          "hint": "All seven main destinations",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the goal-seeking lab and saved compositions with ranked search, impossible-versus-timeout outcomes, save/load/export, automated tests, documented API, and local/deployment guidance."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "goals-form",
+          "type": "form",
+          "label": "Goal constraints",
+          "hint": "Choose requirements, preferences, limits, and search budget",
+          "x": 0,
+          "y": 1,
+          "w": 4,
+          "h": 7,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the goal-seeking lab and saved compositions with ranked search, impossible-versus-timeout outcomes, save/load/export, automated tests, documented API, and local/deployment guidance."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "goals-results",
+          "type": "list",
+          "label": "Ranked solutions",
+          "hint": "Feasible candidates, scores, explanations, and impossible or timeout diagnosis",
+          "x": 4,
+          "y": 1,
+          "w": 8,
+          "h": 7,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the goal-seeking lab and saved compositions with ranked search, impossible-versus-timeout outcomes, save/load/export, automated tests, documented API, and local/deployment guidance."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-1a69246f",
+      "name": "Saved Compositions",
+      "route": "/saved",
+      "item_ref": {
+        "index": 3,
+        "text": "Build the goal-seeking lab and saved compositions with ranked search, impossible-versus-timeout outcomes, save/load/export, automated tests, documented API, and local/deployment guidance."
+      },
+      "blocks": [
+        {
+          "id": "saved-nav",
+          "type": "nav",
+          "label": "Workspace navigation",
+          "hint": "All seven main destinations",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the goal-seeking lab and saved compositions with ranked search, impossible-versus-timeout outcomes, save/load/export, automated tests, documented API, and local/deployment guidance."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "saved-list",
+          "type": "list",
+          "label": "Saved assemblies",
+          "hint": "Open, rename, delete, and export persisted compositions",
+          "x": 0,
+          "y": 1,
+          "w": 7,
+          "h": 7,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the goal-seeking lab and saved compositions with ranked search, impossible-versus-timeout outcomes, save/load/export, automated tests, documented API, and local/deployment guidance."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "saved-preview",
+          "type": "text",
+          "label": "Selected assembly preview",
+          "hint": "Components, status, and details",
+          "x": 7,
+          "y": 1,
+          "w": 5,
+          "h": 7,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the goal-seeking lab and saved compositions with ranked search, impossible-versus-timeout outcomes, save/load/export, automated tests, documented API, and local/deployment guidance."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}

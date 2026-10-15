@@ -1,0 +1,12 @@
+COMPOSE local environment checklist (safe example; no secret values)
+
+Python: 3.13
+Install: pip install -r requirements.txt
+Start: reflex run
+Tests: python -m pytest tests
+
+Database: use the PostgreSQL connection supplied securely by your environment.
+Managed workspace: connection and migrations are provided externally; do not initialize tables.
+Enterprise components: ensure your local Reflex Enterprise installation is entitled to React Flow.
+Never copy real credentials into this file or source control.
+Hosting is not configured by this project.
